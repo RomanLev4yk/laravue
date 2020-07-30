@@ -1,4 +1,5 @@
 {
     "User": true,
-    "Movie": true
+    "Movie": true,
+    "Core": true
 }
