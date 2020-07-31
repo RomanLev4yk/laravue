@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\User\Entities;
+namespace Modules\Movie\Entities;
 
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
+use Modules\Core\Entities\CoreModel as Model;
 
 class Movie extends Model
 {
