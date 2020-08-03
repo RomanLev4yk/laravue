@@ -11,6 +11,10 @@ import VueRouter from 'vue-router';
 
 window.Vue.use(VueRouter);
 
+import UserLogin from './components/Modules/User/Login'
+
+Vue.component('UserLogin', UserLogin)
+
 const routes = [
     {
         path: '/',

@@ -25,5 +25,6 @@
         </div>
     </div>
 </div>
+@include('layouts.parts.login-js')
 </body>
 </html>

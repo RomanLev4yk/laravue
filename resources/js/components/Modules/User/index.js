@@ -1,9 +1,8 @@
 window.Vue = require('vue');
 
-import Profile from './Profile'
 import UserLogin from './Login'
 
-[ Profile, UserLogin ]
+[ UserLogin ]
   .forEach(Component => {
         Vue.component(Component.name, Component)
     })
